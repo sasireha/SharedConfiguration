@@ -1,0 +1,11 @@
+[*]
+
+## Roslynator.CSharp.Analyzers
+
+# RCS1046: Asynchronous method name should end with 'Async'. Defaults to: suggestion
+# Reason: Test names look bad if you append Async.
+dotnet_diagnostic.RCS1046.severity = none
+
+# CA1707: Identifiers should not contain underscores. Defaults to: warning
+# Reason: Test names require some underscores by team convention.
+dotnet_diagnostic.CA1707.severity = none
